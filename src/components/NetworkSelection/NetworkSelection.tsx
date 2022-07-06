@@ -22,7 +22,7 @@ const NetworkSelection: React.FC<NetworkProps> = (props) => {
   const { ethereum } = window;
   const isMetaMask = ethereum && ethereum.isMetaMask;
 
-  const chains = ALL_CHAINS.filter((chain) => chain.pangolin_is_live && chain.mainnet === mainnet);
+  const chains = ALL_CHAINS.filter((chain) => chain.quackswap_is_live && chain.mainnet === mainnet);
 
   useEffect(() => {
     if (chains.length / 2 <= 1) setChainListHeight(48);

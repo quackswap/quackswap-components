@@ -11,7 +11,7 @@ import RabbyIcon from 'src/assets/images/rabby.svg';
 import XDefiIcon from 'src/assets/images/xDefi.png';
 import { Button } from 'src/components/Button';
 import { gnosisSafe, injected, xDefi } from 'src/connectors';
-import { AVALANCHE_CHAIN_PARAMS, EVM_SUPPORTED_WALLETS, IS_IN_IFRAME, LANDING_PAGE, WalletInfo } from 'src/constants';
+import { BTT_CHAIN_PARAMS, EVM_SUPPORTED_WALLETS, IS_IN_IFRAME, LANDING_PAGE, WalletInfo } from 'src/constants';
 import { ExternalLink } from 'src/theme';
 import { Box, Modal, ToggleButtons } from '../../';
 import Option from './Option';
@@ -73,7 +73,7 @@ const WalletModal: React.FC<WalletModalProps> = ({
       provider
         ?.request({
           method: 'wallet_addEthereumChain',
-          params: [AVALANCHE_CHAIN_PARAMS],
+          params: [BTT_CHAIN_PARAMS],
         })
         .then(() => {
           onWalletConnect();

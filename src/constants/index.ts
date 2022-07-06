@@ -149,11 +149,11 @@ export const BLOCKED_PRICE_IMPACT_NON_EXPERT: Percent = new Percent(JSBI.BigInt(
 // used to ensure the user doesn't send so much ETH so they end up with <.01
 export const MIN_ETH: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16)); // .01 ETH
 
-export const PANGOLIN_TOKENS_REPO_RAW_BASE_URL = `https://raw.githubusercontent.com/pangolindex/tokens`;
+export const PANGOLIN_TOKENS_REPO_RAW_BASE_URL = `https://raw.githubusercontent.com/quackswapdex/tokens`;
 
 export type LogoSize = 24 | 48;
 
-export const ANALYTICS_PAGE = 'https://info.pangolin.exchange';
+export const ANALYTICS_PAGE = 'https://info.quackswap.exchange';
 
 export const TIMEFRAME = [
   {
@@ -193,9 +193,9 @@ export const TIMEFRAME = [
   },
 ];
 
-export const SUBGRAPH_BASE_URL = `https://api.thegraph.com/subgraphs/name/pangolindex`;
+export const SUBGRAPH_BASE_URL = `https://api.thegraph.com/subgraphs/name/quackswapdex`;
 
-export const LANDING_PAGE = 'https://pangolin.exchange';
+export const LANDING_PAGE = 'https://quackswap.exchange';
 
 export const EVM_SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
   INJECTED: {
@@ -257,16 +257,16 @@ export const EVM_SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
   },
 };
 
-export const AVALANCHE_CHAIN_PARAMS = {
-  chainId: '0xa86a', // A 0x-prefixed hexadecimal chainId
-  chainName: 'Avalanche Mainnet C-Chain',
+export const BTT_CHAIN_PARAMS = {
+  chainId: '0xc7', // A 0x-prefixed hexadecimal chainId
+  chainName: 'BitTorrent Chain',
   nativeCurrency: {
-    name: 'Avalanche',
+    name: 'BitTorrent',
     symbol: 'BTT',
     decimals: 18,
   },
-  rpcUrls: ['https://api.avax.network/ext/bc/C/rpc'],
-  blockExplorerUrls: ['https://snowtrace.io//'],
+  rpcUrls: ['https://rpc.bt.io'],
+  blockExplorerUrls: ['https://scan.bt.io'],
 };
 export const IS_IN_IFRAME = window.parent !== window;
 
