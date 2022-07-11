@@ -3,11 +3,11 @@ Ui Kit for QuackSwap
 
 ## Installation
 
-`yarn add @pangolindex/components @gelatonetwork/limit-orders-react@2.4.0 @quackswap/sdk`
+`yarn add @pangolindex/components @gelatonetwork/limit-orders-react@2.4.0 @@hotcrosscom/quackswap-sdk`
 
 or
 
-`npm install @pangolindex/components @gelatonetwork/limit-orders-react@2.4.0 @quackswap/sdk`
+`npm install @pangolindex/components @gelatonetwork/limit-orders-react@2.4.0 @@hotcrosscom/quackswap-sdk`
 
 ## Getting started
 

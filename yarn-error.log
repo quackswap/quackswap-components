@@ -14,7 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@quackswap/sdk/-/sdk-2.0.1.tgz: Request failed "404 Not Found"
+  Error: https://registry.yarnpkg.com/@@hotcrosscom/quackswap-sdk/-/sdk-2.0.1.tgz: Request failed "404 Not Found"
       at ResponseError.ExtendableBuiltin (/Users/michalisghiumiiusliu/.nvm/versions/node/v16.12.0/lib/node_modules/yarn/lib/cli.js:696:66)
       at new ResponseError (/Users/michalisghiumiiusliu/.nvm/versions/node/v16.12.0/lib/node_modules/yarn/lib/cli.js:802:124)
       at Request.<anonymous> (/Users/michalisghiumiiusliu/.nvm/versions/node/v16.12.0/lib/node_modules/yarn/lib/cli.js:67099:16)
@@ -68,7 +68,7 @@ npm manifest:
       "@ethersproject/experimental": "^5.5.0",
       "@gelatonetwork/limit-orders-react": "^2.3.1",
       "@gnosis.pm/safe-apps-web3-react": "^0.6.7",
-      "@quackswap/sdk": "2.0.1",
+      "@@hotcrosscom/quackswap-sdk": "2.0.1",
       "@pangolindex/token-lists": "^1.0.1",
       "@pangolindex/web3-react-injected-connector": "^1.0.0",
       "@reduxjs/toolkit": "^1.7.2",
@@ -161,7 +161,7 @@ npm manifest:
     },
     "peerDependencies": {
       "@gelatonetwork/limit-orders-react": "^2.3.1",
-      "@quackswap/sdk": ">=2.0.1",
+      "@@hotcrosscom/quackswap-sdk": ">=2.0.1",
       "@reduxjs/toolkit": "^1.7.2",
       "react": ">=17.0.1",
       "react-dom": ">=17.0.1",
@@ -3410,9 +3410,9 @@ Lockfile:
     dependencies:
       hardhat-tracer "^1.0.0-alpha.5"
   
-  "@quackswap/sdk@2.0.1":
+  "@@hotcrosscom/quackswap-sdk@2.0.1":
     version "2.0.1"
-    resolved "https://registry.yarnpkg.com/@quackswap/sdk/-/sdk-2.0.1.tgz#7a400aa05dad090e0fe56813ef06877b9c7dacce"
+    resolved "https://registry.yarnpkg.com/@@hotcrosscom/quackswap-sdk/-/sdk-2.0.1.tgz#7a400aa05dad090e0fe56813ef06877b9c7dacce"
     integrity sha512-s+7SpItuUWcxdDweWMlK58DvEE7+aS1pg+3OMdoWuMZWLCTBb3Wxwa8edVit1W+a5h0CibMu0Qg6LolqZDWFFg==
     dependencies:
       "@pangolindex/exchange-contracts" "^1.0.1"

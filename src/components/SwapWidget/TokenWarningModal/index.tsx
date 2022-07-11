@@ -1,4 +1,4 @@
-import { Token } from '@quackswap/sdk';
+import { Token } from '@@hotcrosscom/quackswap-sdk';
 import React, { useCallback, useMemo, useState } from 'react';
 import { ExternalLink } from 'src/theme';
 import { getEtherscanLink, shortenAddress } from 'src/utils';

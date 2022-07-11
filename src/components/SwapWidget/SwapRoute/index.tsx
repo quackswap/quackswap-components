@@ -1,4 +1,4 @@
-import { Trade } from '@quackswap/sdk';
+import { Trade } from '@@hotcrosscom/quackswap-sdk';
 import React, { useContext } from 'react';
 import { ChevronRight } from 'react-feather';
 import { ThemeContext } from 'styled-components';

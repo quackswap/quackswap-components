@@ -2755,6 +2755,18 @@
   dependencies:
     cross-fetch "^3.1.5"
 
+"@hotcrosscom/quackswap-sdk@1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@hotcrosscom/quackswap-sdk/1.0.0/d05ff0fec277524759a360893a2620814675d4744af79dcffec936d745e392f0#187b98edbe4b6ea7d86e6cde18f71d0c68301873"
+  integrity sha512-5c8HIe9EpqGW6LSTVezUsJkCEkXnq4LFAgEckhlkgqnwWu1DtlXwNGwIoY760XDfchUljm0n5o5SKxVcYYb+OQ==
+  dependencies:
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@humanwhocodes/config-array@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.6.0.tgz#b5621fdb3b32309d2d16575456cbc277fa8f021a"
@@ -3282,16 +3294,6 @@
     ethereumjs-util "5.2.0"
     penpal "3.0.7"
     pocket-js-core "0.0.3"
-
-"@quackswap/sdk@file:../sdk":
-  version "2.0.11"
-  dependencies:
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 "@reach/dialog@^0.15.0":
   version "0.15.3"

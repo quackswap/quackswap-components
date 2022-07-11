@@ -12,7 +12,7 @@ import {
   Token,
   TokenAmount,
   Trade,
-} from '@quackswap/sdk';
+} from '@@hotcrosscom/quackswap-sdk';
 import { ParsedQs } from 'qs';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';

@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@quackswap/sdk';
+import { ChainId, Token } from '@@hotcrosscom/quackswap-sdk';
 import { Tags, TokenInfo, TokenList } from '@pangolindex/token-lists';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';

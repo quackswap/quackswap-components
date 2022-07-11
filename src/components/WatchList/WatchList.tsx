@@ -1,4 +1,4 @@
-import { CHAINS, ChainId, Token } from '@quackswap/sdk';
+import { CHAINS, ChainId, Token } from '@@hotcrosscom/quackswap-sdk';
 import React, { useContext, useMemo, useRef, useState } from 'react';
 import Scrollbars from 'react-custom-scrollbars';
 import { Plus } from 'react-feather';

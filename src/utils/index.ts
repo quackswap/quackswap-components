@@ -3,7 +3,7 @@ import { BigNumber } from '@ethersproject/bignumber';
 import { AddressZero } from '@ethersproject/constants';
 import { Contract } from '@ethersproject/contracts';
 import { JsonRpcSigner, Web3Provider } from '@ethersproject/providers';
-import { CBTT, CHAINS, ChainId, Currency, JSBI, Percent, Token, Trade, currencyEquals } from '@quackswap/sdk';
+import { CBTT, CHAINS, ChainId, Currency, JSBI, Percent, Token, Trade, currencyEquals } from '@@hotcrosscom/quackswap-sdk';
 import IQuackSwapRouter from '../abi/IQuackSwapRouter.json';
 import { ROUTER_ADDRESS } from '../constants';
 import { TokenAddressMap } from '../state/plists/hooks';

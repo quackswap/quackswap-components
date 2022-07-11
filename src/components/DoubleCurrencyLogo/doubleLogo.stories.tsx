@@ -1,4 +1,4 @@
-import { CHAINS, ChainId, Token } from '@quackswap/sdk';
+import { CHAINS, ChainId, Token } from '@@hotcrosscom/quackswap-sdk';
 import { ComponentStory } from '@storybook/react';
 import React from 'react';
 import { DoubleCurrencyLogo } from '.';

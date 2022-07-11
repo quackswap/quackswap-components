@@ -1,4 +1,4 @@
-import { CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from '@quackswap/sdk';
+import { CurrencyAmount, Fraction, JSBI, Percent, TokenAmount, Trade } from '@@hotcrosscom/quackswap-sdk';
 import {
   ALLOWED_PRICE_IMPACT_HIGH,
   ALLOWED_PRICE_IMPACT_LOW,

@@ -1,5 +1,5 @@
 import { Interface } from '@ethersproject/abi';
-import { ChainId, Currency, Pair, TokenAmount } from '@quackswap/sdk';
+import { ChainId, Currency, Pair, TokenAmount } from '@@hotcrosscom/quackswap-sdk';
 import { useMemo } from 'react';
 import IQuackSwapPair from '../abi/IQuackSwapPair.json';
 import { useQuackSwapWeb3 } from '../hooks';

@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Percent } from '@quackswap/sdk';
+import { CurrencyAmount, JSBI, Percent } from '@@hotcrosscom/quackswap-sdk';
 import React, { useContext, useMemo } from 'react';
 import { ThemeContext } from 'styled-components';
 import { warningSeverity } from 'src/utils/prices';

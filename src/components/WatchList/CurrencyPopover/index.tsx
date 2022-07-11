@@ -1,4 +1,4 @@
-import { CBTT, ChainId, Currency, Token, WBTT } from '@quackswap/sdk';
+import { CBTT, ChainId, Currency, Token, WBTT } from '@@hotcrosscom/quackswap-sdk';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import AutoSizer from 'react-virtualized-auto-sizer';

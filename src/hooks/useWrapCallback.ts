@@ -1,4 +1,4 @@
-import { CBTT, Currency, WBTT, currencyEquals } from '@quackswap/sdk';
+import { CBTT, Currency, WBTT, currencyEquals } from '@@hotcrosscom/quackswap-sdk';
 import { useMemo } from 'react';
 import { tryParseAmount } from '../state/pswap/hooks';
 import { useTransactionAdder } from '../state/ptransactions/hooks';

@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@quackswap/sdk';
+import { Trade, TradeType } from '@@hotcrosscom/quackswap-sdk';
 import React, { useContext, useMemo } from 'react';
 import { AlertTriangle, ArrowDown, ArrowUpCircle } from 'react-feather';
 import { ThemeContext } from 'styled-components';
