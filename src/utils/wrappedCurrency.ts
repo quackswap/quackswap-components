@@ -1,4 +1,4 @@
-import { CBTT, ChainId, Currency, Token, WBTT } from '@@hotcrosscom/quackswap-sdk';
+import { CBTT, ChainId, Currency, Token, WBTT } from '@hotcrosscom/quackswap-sdk';
 import { NativeCurrency as UniCurrency, Token as UniToken } from '@uniswap/sdk-core';
 
 export function wrappedCurrency(currency: Currency | undefined, chainId: ChainId | undefined): Token | undefined {

@@ -1,4 +1,4 @@
-import { Currency } from '@@hotcrosscom/quackswap-sdk';
+import { Currency } from '@hotcrosscom/quackswap-sdk';
 import React from 'react';
 import { LogoSize } from 'src/constants';
 import { Box } from '../Box';

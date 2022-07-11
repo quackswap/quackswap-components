@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@@hotcrosscom/quackswap-sdk';
+import { Token, TokenAmount } from '@hotcrosscom/quackswap-sdk';
 import { useMemo } from 'react';
 
 import { useTokenContract } from '../hooks/useContract';

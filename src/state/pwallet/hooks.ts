@@ -1,4 +1,4 @@
-import { CBTT, ChainId, Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@@hotcrosscom/quackswap-sdk';
+import { CBTT, ChainId, Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@hotcrosscom/quackswap-sdk';
 import { useMemo } from 'react';
 import ERC20_INTERFACE from 'src/constants/abis/erc20';
 import { useQuackSwapWeb3 } from 'src/hooks';

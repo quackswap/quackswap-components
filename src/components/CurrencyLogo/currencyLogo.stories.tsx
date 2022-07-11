@@ -1,4 +1,4 @@
-import { CBTT, ChainId } from '@@hotcrosscom/quackswap-sdk';
+import { CBTT, ChainId } from '@hotcrosscom/quackswap-sdk';
 import { ComponentStory } from '@storybook/react';
 import React from 'react';
 import CurrencyLogo from '.';

@@ -1,4 +1,4 @@
-import { Token } from '@@hotcrosscom/quackswap-sdk';
+import { Token } from '@hotcrosscom/quackswap-sdk';
 import React, { useContext, useEffect, useState } from 'react';
 import { X } from 'react-feather';
 import { useDispatch } from 'react-redux';

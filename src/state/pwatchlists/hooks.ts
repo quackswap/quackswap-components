@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@@hotcrosscom/quackswap-sdk';
+import { ChainId, Token } from '@hotcrosscom/quackswap-sdk';
 import { useSelector } from 'react-redux';
 import { QUACK } from 'src/constants/tokens';
 import { useQuackSwapWeb3 } from 'src/hooks';

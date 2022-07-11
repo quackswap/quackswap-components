@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from '@@hotcrosscom/quackswap-sdk';
+import { Currency, CurrencyAmount, Pair, Token, Trade } from '@hotcrosscom/quackswap-sdk';
 import flatMap from 'lodash.flatmap';
 import { useMemo } from 'react';
 import { BASES_TO_CHECK_TRADES_AGAINST, CUSTOM_BASES } from 'src/constants';

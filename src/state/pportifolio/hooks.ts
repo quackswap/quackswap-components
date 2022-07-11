@@ -1,4 +1,4 @@
-import { ALL_CHAINS } from '@@hotcrosscom/quackswap-sdk';
+import { ALL_CHAINS } from '@hotcrosscom/quackswap-sdk';
 import axios from 'axios';
 import qs from 'qs';
 import { useQuery } from 'react-query';

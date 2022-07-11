@@ -1,4 +1,4 @@
-import { ALL_CHAINS, Chain } from '@@hotcrosscom/quackswap-sdk';
+import { ALL_CHAINS, Chain } from '@hotcrosscom/quackswap-sdk';
 import React, { useEffect, useState } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars';
 import { Box, Modal, Text, ToggleButtons } from 'src/components';

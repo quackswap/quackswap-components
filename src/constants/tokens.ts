@@ -1,4 +1,4 @@
-import { CHAINS, ChainId, Token } from '@@hotcrosscom/quackswap-sdk';
+import { CHAINS, ChainId, Token } from '@hotcrosscom/quackswap-sdk';
 
 export const QUACK: { [chainId in ChainId]: Token } = {
   [ChainId.BITTORRENT_MAINNET]: new Token(
