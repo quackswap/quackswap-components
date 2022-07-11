@@ -1,4 +1,4 @@
-import { VersionUpgrade, getVersionUpgrade, minVersionBump } from '@pangolindex/token-lists';
+import { VersionUpgrade, getVersionUpgrade, minVersionBump } from '@apocentre/token-lists';
 import { useCallback, useEffect } from 'react';
 import ReactGA from 'react-ga';
 import { useDispatch, useSelector } from 'react-redux';

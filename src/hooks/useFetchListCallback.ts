@@ -1,4 +1,4 @@
-import { TokenList } from '@pangolindex/token-lists';
+import { TokenList } from '@apocentre/token-lists';
 import { nanoid } from '@reduxjs/toolkit';
 import { useCallback } from 'react';
 import { useDispatch } from 'react-redux';

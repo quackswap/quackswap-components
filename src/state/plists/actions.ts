@@ -1,4 +1,4 @@
-import { TokenList, Version } from '@pangolindex/token-lists';
+import { TokenList, Version } from '@apocentre/token-lists';
 import { ActionCreatorWithPayload, createAction } from '@reduxjs/toolkit';
 
 export const fetchTokenList: Readonly<{

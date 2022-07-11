@@ -1,4 +1,4 @@
-import { TokenList } from '@pangolindex/token-lists';
+import { TokenList } from '@apocentre/token-lists';
 import { createAction } from '@reduxjs/toolkit';
 
 export type PopupContent =

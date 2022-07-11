@@ -69,7 +69,7 @@ npm manifest:
       "@gelatonetwork/limit-orders-react": "^2.3.1",
       "@gnosis.pm/safe-apps-web3-react": "^0.6.7",
       "@hotcrosscom/quackswap-sdk": "2.0.1",
-      "@pangolindex/token-lists": "^1.0.1",
+      "@apocentre/token-lists": "^1.0.1",
       "@pangolindex/web3-react-injected-connector": "^1.0.0",
       "@reduxjs/toolkit": "^1.7.2",
       "@rollup/plugin-commonjs": "^21.0.0",
@@ -3423,9 +3423,9 @@ Lockfile:
       tiny-warning "^1.0.3"
       toformat "^2.0.0"
   
-  "@pangolindex/token-lists@^1.0.1":
+  "@apocentre/token-lists@^1.0.1":
     version "1.0.1"
-    resolved "https://registry.yarnpkg.com/@pangolindex/token-lists/-/token-lists-1.0.1.tgz#922f6e9de22a71b5d4a7ec4dc8ad183afa8f6cb1"
+    resolved "https://registry.yarnpkg.com/@apocentre/token-lists/-/token-lists-1.0.1.tgz#922f6e9de22a71b5d4a7ec4dc8ad183afa8f6cb1"
     integrity sha512-01MOB0lA5/Chc/g2fzzFPJVHzPAe1dNjBkD9XU6UFDupIAdwEUn9WB4ZqU0p6mAG0ASBdTB2pGEt7cWNBybyXw==
   
   "@pangolindex/web3-react-injected-connector@^1.0.1":
