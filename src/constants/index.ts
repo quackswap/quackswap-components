@@ -214,6 +214,7 @@ export const EVM_SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Easy-to-use browser extension.',
     href: null,
     color: '#E8831D',
+    mobile: true,
   },
   WALLET_CONNECT: {
     connector: walletconnect,
@@ -222,6 +223,7 @@ export const EVM_SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Use Wallet Connect',
     href: null,
     color: '#315CF5',
+    mobile: true,
   },
 };
 
