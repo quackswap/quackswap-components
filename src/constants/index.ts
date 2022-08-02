@@ -215,22 +215,6 @@ export const EVM_SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     href: null,
     color: '#E8831D',
   },
-  GNOSISSAFE: {
-    connector: gnosisSafe,
-    name: 'Gnosis Safe',
-    iconName: 'gnosis_safe.png',
-    description: 'Gnosis Safe Multisig Wallet.',
-    href: null,
-    color: '#010101',
-  },
-  WALLET_LINK: {
-    connector: walletlink,
-    name: 'Coinbase Wallet',
-    iconName: 'coinbaseWalletIcon.svg',
-    description: 'Use Coinbase Wallet app on mobile device',
-    href: null,
-    color: '#315CF5',
-  },
   WALLET_CONNECT: {
     connector: walletconnect,
     name: 'Wallet Connect',
@@ -238,22 +222,6 @@ export const EVM_SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Use Wallet Connect',
     href: null,
     color: '#315CF5',
-  },
-  XDEFI: {
-    connector: xDefi,
-    name: 'XDEFI Wallet',
-    iconName: 'xDefi.png',
-    description: window.xfi && window.xfi.ethereum ? 'Easy-to-use browser extension.' : 'Please Install',
-    href: null,
-    color: '#315CF5',
-  },
-  RABBY: {
-    connector: injected,
-    name: 'Rabby Wallet',
-    iconName: 'rabby.svg',
-    description: 'Easy-to-use browser extension.',
-    href: null,
-    color: '#7a7cff',
   },
 };
 
