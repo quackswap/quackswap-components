@@ -37,7 +37,7 @@ export const walletlink = new WalletLinkConnector({
   url: NETWORK_URL,
   supportedChainIds: [199],
   appName: 'QuackSwap',
-  appLogoUrl: 'https://raw.githubusercontent.com/Apocentre/quackswap-assets/main/assets/0xC0e303034B59132E4F5230ac53F076C4D682431e/logo.png',
+  appLogoUrl: 'https://raw.githubusercontent.com/Apocentre/quackswap-assets/main/assets/0x203F4e30Fd3e7691E542855CA07252b7E49dD9f5/logo.png',
 });
 
 export const walletconnect = new WalletConnectConnector({
