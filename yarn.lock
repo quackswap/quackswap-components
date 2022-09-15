@@ -3280,8 +3280,8 @@
 
 "@quackswap/sdk@1.0.0":
   version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@quackswap/sdk/1.0.0/51cb1c679778f78038833618574363a2ea980edc#51cb1c679778f78038833618574363a2ea980edc"
-  integrity sha512-ZS/WorjyBhIfTHnGkcPgon6EgDsbo7dRJa47cmpcYNHTlmCCNN4hH2nrv9Bi6u99OQlcSY9fC9k/ZBpnIKDJ0A==
+  resolved "https://npm.pkg.github.com/download/@quackswap/sdk/1.0.0/b90392471f74ad28077b53150582219968b9f618#b90392471f74ad28077b53150582219968b9f618"
+  integrity sha512-zVwNurfbBSaLH4ek6YMYiYOCUgv2thKuDGqq+oXWf7bN15BwMDWLgxZvV44VqqQ6ZbyiSPfV1iMTyemqLzdR9w==
   dependencies:
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
