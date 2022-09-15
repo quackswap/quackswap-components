@@ -1,6 +1,6 @@
 import { formatUnits } from '@ethersproject/units';
 import { useGasOverhead, useGelatoLimitOrders, useGelatoLimitOrdersLib } from '@gelatonetwork/limit-orders-react';
-import { TokenAmount } from '@hotcrosscom/quackswap-sdk';
+import { TokenAmount } from '@quackswap/sdk';
 import React, { useMemo } from 'react';
 import { INITIAL_ALLOWED_SLIPPAGE } from 'src/constants';
 import { useQuackSwapWeb3 } from 'src/hooks';

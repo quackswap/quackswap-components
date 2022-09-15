@@ -1,4 +1,4 @@
-import { Token } from '@hotcrosscom/quackswap-sdk';
+import { Token } from '@quackswap/sdk';
 import React, { useCallback } from 'react';
 import { Box, Button, CurrencyLogo, Text } from 'src/components';
 import { useChainId } from 'src/hooks';

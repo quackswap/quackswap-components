@@ -1,4 +1,4 @@
-import { TokenList } from '@apocentre/token-lists';
+import { TokenList } from '@quackswap/token-lists';
 import { createAction } from '@reduxjs/toolkit';
 
 export type PopupContent =

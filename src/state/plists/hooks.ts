@@ -1,5 +1,5 @@
-import { ChainId, Token } from '@hotcrosscom/quackswap-sdk';
-import { Tags, TokenInfo, TokenList } from '@apocentre/token-lists';
+import { ChainId, Token } from '@quackswap/sdk';
+import { Tags, TokenInfo, TokenList } from '@quackswap/token-lists';
 import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 import { AEB_TOKENS } from 'src/constants/lists';

@@ -1,4 +1,4 @@
-import { Currency } from '@hotcrosscom/quackswap-sdk';
+import { Currency } from '@quackswap/sdk';
 import React, { useCallback } from 'react';
 import { LoaderIcon } from 'src/components/Icons';
 import { useChainId, useQuackSwapWeb3 } from 'src/hooks';

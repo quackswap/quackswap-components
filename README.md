@@ -3,11 +3,11 @@ Ui Kit for QuackSwap
 
 ## Installation
 
-`yarn add @pangolindex/components @gelatonetwork/limit-orders-react@2.4.0 @hotcrosscom/quackswap-sdk`
+`yarn add @quackswap/components @gelatonetwork/limit-orders-react@2.4.0 @quackswap/sdk`
 
 or
 
-`npm install @pangolindex/components @gelatonetwork/limit-orders-react@2.4.0 @hotcrosscom/quackswap-sdk`
+`npm install @quackswap/components @gelatonetwork/limit-orders-react@2.4.0 @quackswap/sdk`
 
 ## Getting started
 
@@ -19,16 +19,16 @@ In your store pass the gelato reducers:
 import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import { save, load } from "redux-localstorage-simple";
 import {
-  pangolinReducers,
-  PANGOLIN_PERSISTED_KEYS,
-} from "@pangolindex/components";
+  quackswapReducers,
+  QUACKSWAP_PERSISTED_KEYS,
+} from "@quackswap/components";
 
-const PERSISTED_KEYS: string[] = ["your_keys", ...PANGOLIN_PERSISTED_KEYS];
+const PERSISTED_KEYS: string[] = ["your_keys", ...QUACKSWAP_PERSISTED_KEYS];
 
 const store = configureStore({
   reducer: {
     ...your_reducers,
-    ...pangolinReducers,
+    ...quackswapReducers,
   },
   middleware: [
     ...getDefaultMiddleware({ thunk: false }),
@@ -50,7 +50,7 @@ import App from "./App";
 import store from "./state";
 import { useWeb3React, Web3ReactProvider } from "@web3-react/core";
 import { Provider } from "react-redux";
-import { QuackSwapProvider } from "@pangolindex/components";
+import { QuackSwapProvider } from "@quackswap/components";
 import getLibrary from "./utils/getLibrary";
 
 const AppProvider = () => {
@@ -83,7 +83,7 @@ ReactDOM.render(
 
 1. do `yarn` in components
 2. do `yarn dev` which will watch for any files changes and recompiles files
-3. do `yalc link "@pangolindex/components"` in the project where you want to use components
+3. do `yalc link "@quackswap/components"` in the project where you want to use components
 
 Incase react hook violation error comes, in that case follow below steps also.
 

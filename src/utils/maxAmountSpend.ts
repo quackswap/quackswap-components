@@ -1,4 +1,4 @@
-import { CBTT, ChainId, CurrencyAmount, JSBI } from '@hotcrosscom/quackswap-sdk';
+import { CBTT, ChainId, CurrencyAmount, JSBI } from '@quackswap/sdk';
 import { Currency, CurrencyAmount as UniCurrencyAmount } from '@uniswap/sdk-core';
 import { MIN_ETH } from '../constants';
 

@@ -1,4 +1,4 @@
-import { Token } from '@hotcrosscom/quackswap-sdk';
+import { Token } from '@quackswap/sdk';
 import React, { useCallback, useState } from 'react';
 import { Link } from 'react-feather';
 import { Line, LineChart, ResponsiveContainer, Tooltip } from 'recharts';

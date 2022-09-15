@@ -1,7 +1,7 @@
 import { MaxUint256 } from '@ethersproject/constants';
 import { TransactionResponse } from '@ethersproject/providers';
 import { useGelatoLimitOrdersLib } from '@gelatonetwork/limit-orders-react';
-import { CBTT, ChainId, CurrencyAmount, TokenAmount, Trade } from '@hotcrosscom/quackswap-sdk';
+import { CBTT, ChainId, CurrencyAmount, TokenAmount, Trade } from '@quackswap/sdk';
 import { useCallback, useMemo } from 'react';
 import { ROUTER_ADDRESS } from 'src/constants';
 import { useTokenAllowance } from 'src/data/Allowances';

@@ -1,5 +1,5 @@
 import { useGelatoLimitOrders } from '@gelatonetwork/limit-orders-react';
-import { CBTT, Token, Trade, TradeType } from '@hotcrosscom/quackswap-sdk';
+import { CBTT, Token, Trade, TradeType } from '@quackswap/sdk';
 import React, { useCallback, useContext, useState } from 'react';
 import { AlertTriangle, ArrowDown, ArrowUpCircle } from 'react-feather';
 import { ThemeContext } from 'styled-components';

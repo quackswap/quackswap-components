@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { CHAINS, ChainId, JSBI, Percent, Token, WBTT } from '@hotcrosscom/quackswap-sdk';
+import { CHAINS, ChainId, JSBI, Percent, Token, WBTT } from '@quackswap/sdk';
 import { AbstractConnector } from '@web3-react/abstract-connector';
 import { gnosisSafe, injected, walletconnect, walletlink, xDefi } from '../connectors';
 

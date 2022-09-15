@@ -1,4 +1,4 @@
-import { CBTT, ChainId, Currency, Token } from '@hotcrosscom/quackswap-sdk';
+import { CBTT, ChainId, Currency, Token } from '@quackswap/sdk';
 import deepEqual from 'deep-equal';
 import React, { useMemo } from 'react';
 import { AvaxLogo, CflrLogo, WgmLogo } from 'src/components/Icons';

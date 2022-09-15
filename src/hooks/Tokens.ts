@@ -1,5 +1,5 @@
 import { parseBytes32String } from '@ethersproject/strings';
-import { CBTT, CHAINS, ChainId, Currency, Token } from '@hotcrosscom/quackswap-sdk';
+import { CBTT, CHAINS, ChainId, Currency, Token } from '@quackswap/sdk';
 import { useEffect, useMemo, useState } from 'react';
 import { COINGEKO_BASE_URL } from 'src/constants';
 import { useSelectedTokenList } from 'src/state/plists/hooks';

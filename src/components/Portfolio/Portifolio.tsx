@@ -1,4 +1,4 @@
-import { ALL_CHAINS } from '@hotcrosscom/quackswap-sdk';
+import { ALL_CHAINS } from '@quackswap/sdk';
 import React, { useContext, useEffect, useState } from 'react';
 import Scrollbars from 'react-custom-scrollbars';
 import { Eye, EyeOff, Info, Lock } from 'react-feather';

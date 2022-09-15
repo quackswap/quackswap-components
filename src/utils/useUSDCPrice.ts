@@ -1,5 +1,5 @@
 // TODO: Actually calculate price
-import { ChainId, Currency, JSBI, Price, WBTT, currencyEquals } from '@hotcrosscom/quackswap-sdk';
+import { ChainId, Currency, JSBI, Price, WBTT, currencyEquals } from '@quackswap/sdk';
 import { useMemo } from 'react';
 import { USDCe } from 'src/constants';
 import { PairState, usePairs } from '../data/Reserves';

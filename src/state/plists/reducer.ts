@@ -1,6 +1,6 @@
-import { VersionUpgrade, getVersionUpgrade } from '@apocentre/token-lists';
+import { VersionUpgrade, getVersionUpgrade } from '@quackswap/token-lists';
 // eslint-disable-next-line import/no-unresolved
-import { TokenList } from '@apocentre/token-lists/dist/types';
+import { TokenList } from '@quackswap/token-lists/dist/types';
 import { createReducer } from '@reduxjs/toolkit';
 import { DEFAULT_TOKEN_LISTS, DEFAULT_TOKEN_LISTS_SELECTED } from 'src/constants/lists';
 import { updateVersion } from '../pglobal/actions';

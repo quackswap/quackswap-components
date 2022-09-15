@@ -1,4 +1,4 @@
-import { Token } from '@hotcrosscom/quackswap-sdk';
+import { Token } from '@quackswap/sdk';
 import { isAddress } from 'src/utils';
 
 export function filterTokens(tokens: Token[], search: string): Token[] {

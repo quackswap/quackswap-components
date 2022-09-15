@@ -1,5 +1,5 @@
 import { Web3Provider as Web3ProviderEthers } from '@ethersproject/providers';
-import { ChainId } from '@hotcrosscom/quackswap-sdk';
+import { ChainId } from '@quackswap/sdk';
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import type { FC, ReactNode } from 'react';
 

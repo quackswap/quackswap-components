@@ -1,4 +1,4 @@
-import { ChainId } from '@hotcrosscom/quackswap-sdk';
+import { ChainId } from '@quackswap/sdk';
 import MULTICALL_ABI from './abi.json';
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
