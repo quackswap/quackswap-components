@@ -2755,18 +2755,6 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@hotcrosscom/quackswap-sdk@1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@hotcrosscom/quackswap-sdk/1.0.0/d05ff0fec277524759a360893a2620814675d4744af79dcffec936d745e392f0#187b98edbe4b6ea7d86e6cde18f71d0c68301873"
-  integrity sha512-5c8HIe9EpqGW6LSTVezUsJkCEkXnq4LFAgEckhlkgqnwWu1DtlXwNGwIoY760XDfchUljm0n5o5SKxVcYYb+OQ==
-  dependencies:
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 "@humanwhocodes/config-array@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.6.0.tgz#b5621fdb3b32309d2d16575456cbc277fa8f021a"
@@ -3220,11 +3208,6 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@apocentre/token-lists@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@apocentre/token-lists/-/token-lists-1.0.1.tgz#922f6e9de22a71b5d4a7ec4dc8ad183afa8f6cb1"
-  integrity sha512-01MOB0lA5/Chc/g2fzzFPJVHzPAe1dNjBkD9XU6UFDupIAdwEUn9WB4ZqU0p6mAG0ASBdTB2pGEt7cWNBybyXw==
-
 "@pangolindex/web3-react-injected-connector@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@pangolindex/web3-react-injected-connector/-/web3-react-injected-connector-1.0.1.tgz#ab24ec51d276ae1f723393f0c4a45aa1280b8633"
@@ -3294,6 +3277,23 @@
     ethereumjs-util "5.2.0"
     penpal "3.0.7"
     pocket-js-core "0.0.3"
+
+"@quackswap/sdk@1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@quackswap/sdk/1.0.0/51cb1c679778f78038833618574363a2ea980edc#51cb1c679778f78038833618574363a2ea980edc"
+  integrity sha512-ZS/WorjyBhIfTHnGkcPgon6EgDsbo7dRJa47cmpcYNHTlmCCNN4hH2nrv9Bi6u99OQlcSY9fC9k/ZBpnIKDJ0A==
+  dependencies:
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
+"@quackswap/token-lists@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@quackswap/token-lists/1.0.0/53834c997e87d00397302c4fa96c332a74c0386f#53834c997e87d00397302c4fa96c332a74c0386f"
+  integrity sha512-p9g/t4sKTNBZyv+ovpkpQZ+LrMV+JFD8Kdzg21c1eeDdyKFYybkwYc9OJWXHgbWpm4PHGvFm7cMdxfMMAZHjTA==
 
 "@reach/dialog@^0.15.0":
   version "0.15.3"

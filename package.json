@@ -1,12 +1,12 @@
 {
-  "name": "@hotcrosscom/quackswap-components",
-  "version": "0.1.6",
+  "name": "@quackswap/components",
+  "version": "1.0.0",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "engines": {
     "node": ">=14.17.0"
   },
-  "repository": "https://github.com/hotcrosscom/quackswap-components",
+  "repository": "https://github.com/quackswap/quackswap-components",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
@@ -40,8 +40,8 @@
     "@ethersproject/experimental": "^5.5.0",
     "@gelatonetwork/limit-orders-react": "^2.3.1",
     "@gnosis.pm/safe-apps-web3-react": "^0.6.7",
-    "@hotcrosscom/quackswap-sdk": "1.1.0",
-    "@apocentre/token-lists": "^1.0.2",
+    "@quackswap/sdk": "1.0.0",
+    "@quackswap/token-lists": "^1.0.0",
     "@pangolindex/web3-react-injected-connector": "^1.0.0",
     "@reduxjs/toolkit": "^1.7.2",
     "@rollup/plugin-commonjs": "^21.0.0",
@@ -133,7 +133,7 @@
   },
   "peerDependencies": {
     "@gelatonetwork/limit-orders-react": "^2.3.1",
-    "@hotcrosscom/quackswap-sdk": ">=1.1.0",
+    "@quackswap/sdk": ">=1.0.0",
     "@reduxjs/toolkit": "^1.7.2",
     "react": ">=17.0.1",
     "react-dom": ">=17.0.1",
